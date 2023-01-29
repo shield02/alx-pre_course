@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T07:17:32.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="h4JdQFOU1rOaWLp8hzjW" version="20.8.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-29T07:18:44.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hXZqodHnmyVhrIxBXvKb" version="20.8.13" type="github" pages="2">
   <diagram name="sum-squares" id="U0MdJ8DX_YnhD0tpoGuT">
     <mxGraphModel dx="2514" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7x_zj20j2T5jwdIYKCRn" name="Page-2">
+  <diagram id="7x_zj20j2T5jwdIYKCRn" name="sort numbers in a list">
     <mxGraphModel dx="2514" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
