@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T07:18:44.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hXZqodHnmyVhrIxBXvKb" version="20.8.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-29T07:43:29.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pMaGGlBYLrYv9QKjbh6l" version="20.8.13" type="github" pages="3">
   <diagram name="sum-squares" id="U0MdJ8DX_YnhD0tpoGuT">
     <mxGraphModel dx="2514" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -188,6 +188,55 @@
         </mxCell>
         <mxCell id="3N5P4oOPjTkhfIXSAu03-47" value="END" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="93.13" y="752" width="86.25" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BLzwIa6v3rucbX1kRV3f" name="Running sum">
+    <mxGraphModel dx="880" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="b1Lt6J5SVjgl6cIOydem-1" target="b1Lt6J5SVjgl6cIOydem-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-1" value="START" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="b1Lt6J5SVjgl6cIOydem-2" target="b1Lt6J5SVjgl6cIOydem-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-2" value="init value = 0" style="whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="b1Lt6J5SVjgl6cIOydem-8" target="b1Lt6J5SVjgl6cIOydem-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-8" value="ask for&lt;br&gt;number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-12" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="b1Lt6J5SVjgl6cIOydem-9" target="b1Lt6J5SVjgl6cIOydem-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-18" value="&amp;nbsp;no&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="b1Lt6J5SVjgl6cIOydem-9" target="b1Lt6J5SVjgl6cIOydem-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-9" value="is number&amp;nbsp;&lt;br&gt;positive?" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-11" value="add number&amp;nbsp;&lt;br&gt;to value" style="whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="510" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="b1Lt6J5SVjgl6cIOydem-17" target="b1Lt6J5SVjgl6cIOydem-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-17" value="print value" style="whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-20" value="END" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="220" y="600" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
