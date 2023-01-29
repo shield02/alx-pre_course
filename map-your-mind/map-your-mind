@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T07:43:29.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pMaGGlBYLrYv9QKjbh6l" version="20.8.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-29T07:44:35.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="gviL5HLnZyrNvFNtSppd" version="20.8.13" type="github" pages="3">
   <diagram name="sum-squares" id="U0MdJ8DX_YnhD0tpoGuT">
     <mxGraphModel dx="2514" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -217,7 +217,7 @@
         <mxCell id="b1Lt6J5SVjgl6cIOydem-8" value="ask for&lt;br&gt;number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="547.5" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b1Lt6J5SVjgl6cIOydem-12" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="b1Lt6J5SVjgl6cIOydem-9" target="b1Lt6J5SVjgl6cIOydem-11">
+        <mxCell id="b1Lt6J5SVjgl6cIOydem-12" value="&amp;nbsp;yes&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="b1Lt6J5SVjgl6cIOydem-9" target="b1Lt6J5SVjgl6cIOydem-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b1Lt6J5SVjgl6cIOydem-18" value="&amp;nbsp;no&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="b1Lt6J5SVjgl6cIOydem-9" target="b1Lt6J5SVjgl6cIOydem-17">
